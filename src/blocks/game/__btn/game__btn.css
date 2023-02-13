@@ -1,0 +1,20 @@
+.game__btn {
+  grid-area: game__btn;
+  justify-self: center;
+  color: #eee;
+  height: 74px;
+  width: 220px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(to top, #e12e00 0, #fd6200 100%);
+  transition: all 0.5s;
+  margin: 30px;
+}
+
+.game__btn:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}

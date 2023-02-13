@@ -1,0 +1,58 @@
+.game__cell {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #fc611d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aqua;
+  font-size: 80px;
+  box-sizing: border-box;
+  font-family: 'TTT';
+}
+
+.game__cell:first-child {
+  border: none;
+  box-shadow: none
+}
+
+.game__cell:last-child {
+  border: none;
+  box-shadow: none
+}
+
+.game__cell:nth-child(3) {
+  border: none;
+  box-shadow: none
+}
+
+.game__cell:nth-child(7) {
+  border: none;
+  box-shadow: none
+}
+
+.game__cell:nth-child(2) {
+  border-top: none;
+  border-bottom: none;
+}
+
+.game__cell:nth-child(8) {
+  border-top: none;
+  border-bottom: none;
+}
+
+.game__cell:nth-child(4) {
+  border-left: none;
+  border-right: none;
+}
+
+.game__cell:nth-child(6) {
+  border-left: none;
+  border-right: none;
+}
+
+.game__cell:hover {
+  border: 1px solid #fc611d;
+  box-shadow: 0 0 0 1px #fc611d, 0 0 8px #fc611d;
+}
+
