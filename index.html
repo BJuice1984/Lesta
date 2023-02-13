@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Тестовое задание на вакансию Frontend Developer"/>
+  <meta name="keywords" content="HTML5, CSS" />
+  <meta name="author" content="Ильяс" />
+  <title>Lesta. Тестовое задание</title>
+
+<script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+<body class="page">
+  <header class="header">
+    <h1 class="header__name">Lesta</h1>
+  </header>
+  <div class="page__container">
+    <main class="content">
+      <section class="game">
+        <h2 class="game__header">Tic Tac Toe</h2>
+        <div id="game" class="game__board"></div>
+        <button class="game__btn" id="reset">Новая игра</button>
+        <p id="result" class="game__result"></p>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <p class="footer__author">&copy; 2023. Ильяс Сибгатуллин</p>
+    </footer>
+  </div>
+  <template class="template">
+    <div class="game__cell"></div>
+  </template>
+  
+  <script type="module" src="./pages/index.js"></script>
+</body>
+</html>
