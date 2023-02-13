@@ -1,3 +1,4 @@
+import './index.css';
 import { TicTacToe } from "../components/ticTacToe.js";
 
 const game = document.getElementById('game');
