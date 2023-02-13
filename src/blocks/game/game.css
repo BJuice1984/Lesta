@@ -1,0 +1,10 @@
+.game {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  grid-template-areas:
+  "game__header game__header"
+  "game__board game__result"
+  "game__btn game__btn";
+  
+}

@@ -1,0 +1,9 @@
+.game__result {
+  grid-area: game__result;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aqua;
+  font-size: 40px;
+  font-family: 'TTT';
+}
