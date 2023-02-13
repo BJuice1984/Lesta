@@ -18,3 +18,12 @@
   opacity: 0.8;
   transition: 0.2s ease-in-out;
 }
+
+@media screen and (min-width: 768px) {
+  .game__btn {
+    height: 94px;
+    width: 250px;
+    margin: 80px;
+    font-size: 30px;
+  }
+}
