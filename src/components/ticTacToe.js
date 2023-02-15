@@ -10,6 +10,7 @@ export class TicTacToe {
     this._turn = 0;
     this._cellList = [];
     this._boardArr = [];
+    console.log(this._result)
   }
 
   _createView() {
@@ -40,14 +41,15 @@ export class TicTacToe {
     this._boardArr[item] = human;
     this._cellList[item].innerHTML = `${human}`;
     this._turn = this._turn + 1;
-    
+
     if (this._checkWinner(this._boardArr, human)) {
-      this._result.innerHTML = 'You WIN!'
+      this._result.textContent = 'You WIN!';
+      this._result.classList.add('game__result_type_active');
       this._removeEventListeners()
       return
     }
     if (this._turn === 9) {
-      this._result.innerHTML = 'WOW! DRAW!'
+      this._result.textContent = 'WOW! DRAW!'
       return
     }
     this._bot();
@@ -67,7 +69,8 @@ export class TicTacToe {
     this._cells[botCell].removeEventListener('click', this._play)
 
     if (this._checkWinner(this._boardArr, bot)) {
-      this._result.innerHTML = 'You lose..'
+      this._result.textContent = 'You lose..';
+      this._result.classList.add('game__result_type_active');
       this._removeEventListeners();
       return
     }
@@ -90,9 +93,9 @@ export class TicTacToe {
   startGame() {
     this._boardArr = Array.from(Array(9).keys());
     this._cellList = [];
-    this._result.innerHTML = '';
     this._game.innerHTML = '';
     this._turn = 0;
+    this._result.classList.remove('game__result_type_active');
     this._createView();
     this._addEventListeners();
   }
