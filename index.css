@@ -17,11 +17,19 @@
 /*!******************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/header.css ***!
   \******************************************************************************************************************************************************/
-.header{background-color:#333;padding:28px 0 31.6px 27px}@media screen and (min-width:768px){.header{padding:45px 0 41px}}
+.header{background-color:#333;padding:28px 0 10px 27px}@media screen and (min-width:768px){.header{padding:45px 0 15px}}
 /*!*******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__name/header__name.css ***!
   \*******************************************************************************************************************************************************************/
-.header__name{color:#545454;font-size:30px;font-weight:700;line-height:30px;margin:0 auto;text-align:center}
+.header__name{color:#545454;cursor:default;font-size:30px;font-weight:700;line-height:30px;margin:0 auto;text-align:center}@media screen and (min-width:768px){.header__name{font-size:40px}}
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__navigation/header__navigation.css ***!
+  \*******************************************************************************************************************************************************************************/
+.header__navigation{display:flex;flex-direction:column;padding-top:10px}@media screen and (min-width:768px){.header__navigation{display:flex;flex-direction:row;padding-top:10px}}
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__link/header__link.css ***!
+  \*******************************************************************************************************************************************************************/
+.header__link{color:#eee;font-size:20px;font-weight:400;line-height:1.2;padding:10px;text-decoration:none;transition:all .5s}.header__link:hover{opacity:.6;transition:.2s ease-in-out}@media screen and (min-width:768px){.header__link{font-size:25px}}
 /*!**************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/game/game.css ***!
   \**************************************************************************************************************************************************/
@@ -41,11 +49,15 @@
 /*!*******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/game/__header/game__header.css ***!
   \*******************************************************************************************************************************************************************/
-.game__header{color:#eee;font-family:TTT;font-size:40px;grid-area:game__header;justify-self:center;text-shadow:0 0 .25em rgba(0,0,0,.7)}@media screen and (min-width:768px){.game__header{font-size:100px;text-shadow:0 0 .25em #000}}
+.game__header{color:#eee;cursor:default;font-family:TTT;font-size:40px;grid-area:game__header;justify-self:center;text-shadow:0 0 .25em rgba(0,0,0,.7)}@media screen and (min-width:768px){.game__header{font-size:100px;text-shadow:0 0 .25em #000}}
 /*!*************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/game/__btn/game__btn.css ***!
   \*************************************************************************************************************************************************************/
 .game__btn{background:linear-gradient(0deg,#e12e00 0,#fd6200);border:none;color:#eee;cursor:pointer;font-size:20px;grid-area:game__btn;height:74px;justify-self:center;margin:30px;text-align:center;text-decoration:none;transition:all .5s;width:220px}.game__btn:hover{opacity:.8;transition:.2s ease-in-out}@media screen and (min-width:768px){.game__btn{font-size:30px;height:94px;margin:80px;width:250px}}
+/*!**************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-news/about-news.css ***!
+  \**************************************************************************************************************************************************************/
+.about-news{display:flex;flex-direction:column}
 /*!********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/content/content.css ***!
   \********************************************************************************************************************************************************/
@@ -57,7 +69,7 @@
 /*!***********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__author/footer__author.css ***!
   \***********************************************************************************************************************************************************************/
-.footer__author{color:#545454;font-size:14px;font-weight:400;line-height:17px;margin:0}@media screen and (min-width:768px){.footer__author{font-size:18px;line-height:22px}}
+.footer__author{color:#545454;cursor:default;font-size:14px;font-weight:400;line-height:17px;margin:0}@media screen and (min-width:768px){.footer__author{font-size:18px;line-height:22px}}
 /*!*********************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/pages/index.css ***!
   \*********************************************************************************************************************************************/
