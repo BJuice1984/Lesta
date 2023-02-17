@@ -1,6 +1,6 @@
 import './index.css';
 import { Section } from '../components/Section.js';
-import { AboutNews } from '../components/aboutNews.js';
+import { AboutNews } from '../components/AboutNews.js';
 import { gamesSites, gameNews } from '../components/data';
 
 const gameTemplate = document.getElementById('template-game').content;

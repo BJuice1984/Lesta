@@ -25,17 +25,4 @@
     "game__board game__result"
     "game__btn game__btn";
   }
-
-  .game::after {
-    content: "";
-    display: block;
-    position: absolute;
-    background: #2A2C2F;
-    opacity: 0.6;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    z-index: -1;
-  }
 }

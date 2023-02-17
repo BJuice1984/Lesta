@@ -5,8 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #197DEB;
-  text-shadow: 0 0 0.25em rgb(0 0 0 / 70%);
+  color: #eee;;
+  text-shadow: 0 0 0.25em rgb(0 0 0 / 100%);
   font-size: 70px;
   box-sizing: border-box;
   font-family: 'TTT';
@@ -62,8 +62,6 @@
     width: 150px;
     height: 150px;
     font-size: 130px;
-    color: #eee;
-    text-shadow: 0 0 0.25em rgb(0 0 0 / 100%);
     border: 3px solid #fc611d;
   }
 }

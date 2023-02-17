@@ -1,0 +1,6 @@
+.about-news__container {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,10 @@
+.content_type_news {
+  background-image: url('https://wows-static-production.wgcdn.co/metashop/88180f0b/assets/images/bundle_background_mask.svg');
+  background-size: 2000%;
+}
+
+@media screen and (min-width: 768px) {
+  .content_type_news {
+    background-size: 500%;
+  }
+}

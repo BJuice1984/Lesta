@@ -10,7 +10,6 @@ export class TicTacToe {
     this._turn = 0;
     this._cellList = [];
     this._boardArr = [];
-    console.log(this._result)
   }
 
   _createView() {
@@ -39,7 +38,7 @@ export class TicTacToe {
     const item = e.target.getAttribute('data-cell');
     e.target.removeEventListener('click', this._play);
     this._boardArr[item] = human;
-    this._cellList[item].innerHTML = `${human}`;
+    this._cellList[item].textContent = `${human}`;
     this._turn = this._turn + 1;
 
     if (this._checkWinner(this._boardArr, human)) {
@@ -49,7 +48,8 @@ export class TicTacToe {
       return
     }
     if (this._turn === 9) {
-      this._result.textContent = 'WOW! DRAW!'
+      this._result.textContent = 'WOW! DRAW!';
+      this._result.classList.add('game__result_type_active');
       return
     }
     this._bot();
@@ -64,7 +64,7 @@ export class TicTacToe {
     }
     const botCell = this._emptyCellArr[Math.floor(Math.random() * this._emptyCellArr.length)];
     this._boardArr[botCell] = bot;
-    this._cellList[botCell].innerHTML = `${bot}`;
+    this._cellList[botCell].textContent = `${bot}`;
     this._turn = this._turn + 1;
     this._cells[botCell].removeEventListener('click', this._play)
 

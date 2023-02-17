@@ -1,5 +1,5 @@
 import './index.css';
-import { TicTacToe } from "../components/ticTacToe.js";
+import { TicTacToe } from "../components/TicTacToe.js";
 
 const game = document.getElementById('game');
 const result = document.getElementById('result');

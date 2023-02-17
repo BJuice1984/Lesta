@@ -1,0 +1,18 @@
+.about-news__header {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.1;
+  font-weight: bold;
+  color: #fc611d;
+  opacity: 0.9;
+  text-shadow: 0 0 0.5em rgb(252 97 29 / 70%);
+  cursor: default;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-news__header {
+    font-size: 30px;
+  }
+}

@@ -18,7 +18,7 @@
         <a class="header__link" href="./compare.html">Сравнить статьи</a>
       </nav>
     </header>
-    <main class="content">
+    <main class="content content_type_news">
       <section class="about-news">
         <h2 class="about-news__header">Сайты игровых компаний</h2>
         <div id="game" class="about-news__container">
@@ -36,18 +36,18 @@
   </div>
   <template id="template-game" class="template">
     <article class="about-news__element">
-      <h3 class="about-news__element-name"></h3>
+      <a class="about-news__element-name" href="#"></a>
       <p class="about-news__element-description"></p>
     </article>
   </template>
   <template id="template-news" class="template">
     <article class="about-news__element">
-      <h3 class="about-news__element-name"></h3>
+      <a class="about-news__element-name"></a>
       <p class="about-news__element-description"></p>
-      <p class="about-news__element-opinion"></p>
+      <p class="about-news__element-description about-news__element-description_type_opinion"></p>
     </article>
   </template>
 
-  <script type="module" src="./aboutNews.js"></script>
+
 </body>
 </html>
