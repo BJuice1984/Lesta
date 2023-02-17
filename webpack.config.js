@@ -3,12 +3,22 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
+const pages = ["index", "aboutNews", "compare"]
+
 module.exports = {
-  entry: { main: './src/pages/index.js' },
+  entry: pages.reduce((config, page) => {
+    config[page] = `./src/pages/${page}.js`;
+    return config;
+  }, {}),
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js',
+    filename: '[name].js',
         publicPath: ''
+  },
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
   },
   devServer: {
     static: path.resolve(__dirname, 'dist'),
@@ -50,11 +60,19 @@ module.exports = {
       },
     ]
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html'
-    }),
-    new CleanWebpackPlugin(),
-    new MiniCssExtractPlugin()
-  ]
+  plugins: [].concat(
+    pages.map(
+      (page) =>
+        new HtmlWebpackPlugin({
+          inject: true,
+          template: `./src/pages/${page}.html`,
+          filename: `${page}.html`,
+          chunks: [page],
+        })
+    ),
+    [
+      new CleanWebpackPlugin(),
+      new MiniCssExtractPlugin()
+    ]
+  ),
  }
