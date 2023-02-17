@@ -65,7 +65,7 @@
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-news/__header/about-news__header.css ***!
   \*******************************************************************************************************************************************************************************/
-.about-news__header{color:#fc611d;cursor:default;font-size:25px;font-weight:700;line-height:1.1;margin:0 auto;padding-bottom:30px;text-align:center;text-shadow:0 0 .5em rgba(84,84,84,.7)}@media screen and (min-width:768px){.about-news__header{font-size:30px}}
+.about-news__header{color:#fc611d;cursor:default;font-size:25px;font-weight:700;line-height:1.1;margin:0 auto;opacity:.6;padding-bottom:30px;text-align:center;text-shadow:0 0 .5em rgba(84,84,84,.7)}@media screen and (min-width:768px){.about-news__header{font-size:30px}}
 /*!*********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-news/__element/about-news__element.css ***!
   \*********************************************************************************************************************************************************************************/
