@@ -1,0 +1,13 @@
+.patch-notes__table {
+  display: table;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  margin: 20px 10px;
+  border-spacing: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .patch-notes__table {
+    margin: 30px 30px;
+  }
+}

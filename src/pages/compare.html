@@ -12,19 +12,60 @@
 <body class="page">
   <div class="page__container">
     <header class="header">
-      <h1 class="header__name">Lesta. Сравнение статей</h1>
+      <h1 class="header__name">Lesta Games. Сравнение Патч-ноутов</h1>
       <nav class="header__navigation">
         <a class="header__link" href="./index.html">Главная</a>
         <a class="header__link" href="./aboutNews.html">О новостях</a>
       </nav>
     </header>
     <main class="content content_type_news">
+      <section class="patch-notes">
+          <p class="patch-notes__incoming-description">
+            В этом разделе сайта я&nbsp;сравниваю две статьи об&nbsp;обновлениях игры "Мир&nbsp;кораблей"
+            <a class="patch-notes__incoming-link" href="https://korabli.su/ru/news/game-updates/update-0910-american-battleships/">старую</a> и
+            <a class="patch-notes__incoming-link" href="https://korabli.su/ru/news/game-updates/update-01111-new-year/">новую</a>
+          </p>
+            <table class="patch-notes__table">
+              <caption class="patch-notes__table-caption">Оценка изменений</caption>
+              <thead>
+                <tr>
+                  <th class="patch-notes__table-head">Комментарий</th>
+                  <th class="patch-notes__table-head">Оценка</th>
+                </tr>
+              </thead>
+              <tbody id="table">
+
+              </tbody>
+            </table>
+      </section>
 
     </main>
     <footer class="footer">
       <p class="footer__author">&copy; 2023. Ильяс Сибгатуллин</p>
+      <div class="footer__link-container">
+        <a class="footer__author" target="_blank" href="https://icons8.com/icon/zSZ4mlKW8DSR/done">Done</a> icon by <a class="footer__author" target="_blank" href="https://icons8.com">Icons8</a>
+        <a class="footer__author" target="_blank" href="https://icons8.com/icon/22922/close">Close</a> icon by <a class="footer__author" target="_blank" href="https://icons8.com">Icons8</a>
+      </div>
     </footer>
   </div>
-
+  <div class="popup popup_type_image">
+    <div class="popup__window popup__window_type_image-opened">
+      <button class="popup__close-button" type="button" aria-label="Закрыть"></button>
+      <figure class="popup__content">
+        <img class="popup__content popup__content_type_image" src="#" alt="Изображение загружается" />
+        <figcaption class="popup__content popup__content_type_name"></figcaption>
+      </figure>
+    </div>
+  </div>
+  <template class="template">
+    <tr id="table-template">
+      <td class="patch-notes__table-body"></td>
+      <td class="patch-notes__table-body patch-notes__table-body_type_evaluation">
+        <img class="patch-notes__table-image patch-notes__table-image_type_good" src="<%=require('../../images/OK_pic.svg')%>" alt="Картинка. Good"/>
+        <img class="patch-notes__table-image patch-notes__table-image_type_bad" src="<%=require('../../images/ERR_pic.svg')%>" alt="Картинка. Bad"/>
+        <img class="patch-notes__table-image patch-notes__table-image_type_bug" src="<%=require('../../images/Bag.jpg')%>" alt="Картинка. Баг"/>
+      </td>
+    </tr>
+  </template>
 </body>
 </html>

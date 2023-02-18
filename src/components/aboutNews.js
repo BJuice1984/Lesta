@@ -1,9 +1,9 @@
 export class AboutNews {
-  constructor(items, template) {
-    this._name = items.siteName;
-    this._link = items.siteLink;
-    this._description = items.siteDescription;
-    this._opinion = items.siteOpinion;
+  constructor(item, template) {
+    this._name = item.siteName;
+    this._link = item.siteLink;
+    this._description = item.siteDescription;
+    this._opinion = item.siteOpinion;
     this._template = template;
   }
 
