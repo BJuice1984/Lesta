@@ -101,19 +101,19 @@
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__table/patch-notes__table.css ***!
   \*******************************************************************************************************************************************************************************/
-.patch-notes__table{border-collapse:collapse;color:#eee;line-height:1.1;margin:20px 10px 0}
+.patch-notes__table{border-collapse:collapse;border-spacing:1px;box-sizing:border-box;display:table;margin:20px 10px}@media screen and (min-width:768px){.patch-notes__table{margin:30px}}
 /*!***********************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__table-caption/patch-notes__table-caption.css ***!
   \***********************************************************************************************************************************************************************************************/
-.patch-notes__table-caption{color:#fc611d;cursor:default;font-size:25px;font-weight:700;line-height:1.1;opacity:.9;padding:15px}
+.patch-notes__table-caption{color:#fc611d;cursor:default;font-size:25px;font-weight:700;line-height:1.1;opacity:.9;padding:15px}@media screen and (min-width:768px){.patch-notes__table-caption{font-size:35px;line-height:1.2;padding:25px}}@media screen and (min-width:1024px){.patch-notes__table-caption{font-size:45px;padding:30px}}
 /*!*****************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__table-head/patch-notes__table-head.css ***!
   \*****************************************************************************************************************************************************************************************/
-.patch-notes__table-head{border:1px solid #a9e2cc;color:#eee;cursor:default;font-size:20px;font-weight:700;line-height:1.1;padding:10px;text-shadow:0 0 .25em rgba(0,0,0,.7)}
+.patch-notes__table-head{border:1px solid #545454;color:#eee;cursor:default;font-size:20px;font-weight:700;line-height:1.1;padding:10px;text-shadow:0 0 .25em rgba(0,0,0,.7)}@media screen and (min-width:768px){.patch-notes__table-head{font-size:30px;line-height:1.5;padding:12px}}@media screen and (min-width:1024px){.patch-notes__table-head{font-size:45px;padding:15px}}
 /*!*****************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__table-body/patch-notes__table-body.css ***!
   \*****************************************************************************************************************************************************************************************/
-.patch-notes__table-body{border:1px solid #a9e2cc;color:#eee;cursor:default;font-size:15px;font-weight:700;line-height:1.1;opacity:.9;padding:5px;text-align:left;text-shadow:0 0 .25em rgba(0,0,0,.7)}
+.patch-notes__table-body{border:1px solid #545454;color:#eee;cursor:default;font-size:15px;font-weight:700;line-height:1.1;opacity:.8;padding:5px;text-align:left;text-shadow:0 0 .25em rgba(0,0,0,.7)}@media screen and (min-width:768px){.patch-notes__table-body{font-size:25px;font-weight:400;padding:15px}}@media screen and (min-width:1024px){.patch-notes__table-body{font-size:35px;font-weight:400}}
 /*!********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/content/content.css ***!
   \********************************************************************************************************************************************************/
