@@ -1,3 +1,25 @@
 .patch-notes__table-image_type_bug {
   cursor: pointer;
+  transition: all 0.5s;
+  box-sizing: border-box;
+  object-fit: cover;
+  max-width: 80px;
+  max-height: 100%;
+}
+
+.patch-notes__table-image_type_bug:hover {
+  opacity: 0.6;
+  transition: 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .patch-notes__table-image_type_bug {
+    max-width: 120px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .patch-notes__table-image {
+    max-width: 150px;
+  }
 }

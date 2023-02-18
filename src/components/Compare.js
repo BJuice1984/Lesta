@@ -1,7 +1,8 @@
 export class Compare {
-  constructor(item, template) {
+  constructor(item, template, handleCardClick) {
     this._description = item.issueDescription;
     this._evaluation = item.issueEvaluation;
+    this._handleCardClick = handleCardClick;
     this._template = template;
   }
 
@@ -19,6 +20,8 @@ export class Compare {
     if (this._evaluation === 'img') {
       this._view.querySelector('.patch-notes__table-image_type_good').remove();
       this._view.querySelector('.patch-notes__table-image_type_bad').remove();
+      this._view.querySelector('.patch-notes__table-image_type_bug').addEventListener('click', () => {
+        this._handleCardClick(this._view.querySelector('.patch-notes__table-image_type_bug').src) });
     }
     return this._view
   };
