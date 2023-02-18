@@ -8,7 +8,7 @@
   <meta name="keywords" content="HTML5, CSS" />
   <meta name="author" content="Ильяс" />
   <title>Lesta. Тестовое задание</title>
-<script defer src="src_components_Section_js-src_components_data_js-src_pages_index_css.js"></script><script defer src="compare.js"></script><link href="src_blocks_about-news___container_about-news__container_css-src_blocks_about-news___element-d-a296a4.css" rel="stylesheet"></head>
+<script defer src="src_components_Section_js-src_components_data_js-src_pages_index_css.js"></script><script defer src="compare.js"></script><link href="src_blocks_about-news___container_about-news__container_css-src_blocks_about-news___element-d-1c7062.css" rel="stylesheet"></head>
 <body class="page">
   <div class="page__container">
     <header class="header">
@@ -25,10 +25,6 @@
             <a class="patch-notes__incoming-link" href="https://korabli.su/ru/news/game-updates/update-0910-american-battleships/">старую</a> и
             <a class="patch-notes__incoming-link" href="https://korabli.su/ru/news/game-updates/update-01111-new-year/">новую</a>
           </p>
-
-            <!-- <img class="patch-notes__incoming-image" src="images/OK_pic.1b6082f862eac35e2514.svg" alt=""/> -->
-            <!-- <img class="patch-notes__table-image" src="images/OK_pic.1b6082f862eac35e2514.svg" alt=""/> -->
-
             <table class="patch-notes__table">
               <caption class="patch-notes__table-caption">Оценка изменений</caption>
               <thead>
@@ -46,16 +42,30 @@
     </main>
     <footer class="footer">
       <p class="footer__author">&copy; 2023. Ильяс Сибгатуллин</p>
+      <div class="footer__link-container">
+        <a class="footer__author" target="_blank" href="https://icons8.com/icon/zSZ4mlKW8DSR/done">Done</a> icon by <a class="footer__author" target="_blank" href="https://icons8.com">Icons8</a>
+        <a class="footer__author" target="_blank" href="https://icons8.com/icon/22922/close">Close</a> icon by <a class="footer__author" target="_blank" href="https://icons8.com">Icons8</a>
+      </div>
     </footer>
+  </div>
+  <div class="popup popup_type_image">
+    <div class="popup__window popup__window_type_image-opened">
+      <button class="popup__close-button" type="button" aria-label="Закрыть"></button>
+      <figure class="popup__content">
+        <img class="popup__content popup__content_type_image" src="#" alt="Изображение загружается" />
+        <figcaption class="popup__content popup__content_type_name"></figcaption>
+      </figure>
+    </div>
   </div>
   <template class="template">
     <tr id="table-template">
       <td class="patch-notes__table-body"></td>
       <td class="patch-notes__table-body patch-notes__table-body_type_evaluation">
-        <img class="patch-notes__table-image" src="#" alt=""/>
+        <img class="patch-notes__table-image patch-notes__table-image_type_good" src="images/OK_pic.1018e7755c8d8aacc421.svg" alt="Картинка. Good"/>
+        <img class="patch-notes__table-image patch-notes__table-image_type_bad" src="images/ERR_pic.98b5edd9407f31f4cea5.svg" alt="Картинка. Bad"/>
+        <img class="patch-notes__table-image patch-notes__table-image_type_bug" src="images/Bag.240a6cb696f9db22f8f7.jpg" alt="Картинка. Баг"/>
       </td>
     </tr>
   </template>
-
 </body>
 </html>
