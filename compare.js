@@ -10,23 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/components/Compare.js":
+/*!***********************************!*\
+  !*** ./src/components/Compare.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Compare\": () => (/* binding */ Compare)\n/* harmony export */ });\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && \"function\" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }, _typeof(obj); }\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\nfunction _toPropertyKey(arg) { var key = _toPrimitive(arg, \"string\"); return _typeof(key) === \"symbol\" ? key : String(key); }\nfunction _toPrimitive(input, hint) { if (_typeof(input) !== \"object\" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || \"default\"); if (_typeof(res) !== \"object\") return res; throw new TypeError(\"@@toPrimitive must return a primitive value.\"); } return (hint === \"string\" ? String : Number)(input); }\nvar Compare = /*#__PURE__*/function () {\n  function Compare(item, template) {\n    _classCallCheck(this, Compare);\n    this._description = item.issueDescription;\n    this._evaluation = item.issueEvaluation;\n    this._template = template;\n  }\n  _createClass(Compare, [{\n    key: \"render\",\n    value: function render() {\n      this._view = this._template.getElementById('table-template').cloneNode(true);\n      this._view.querySelector('.patch-notes__table-body').textContent = this._description;\n      if (this._evaluation === 'good') {\n        this._view.querySelector('.patch-notes__table-image').src = \"'<%=require('../../images/OK_pic.svg')%>'\";\n      }\n      // this._view.querySelector('.patch-notes__table-body_type_evaluation').textContent = this._evaluation;\n      return this._view;\n    }\n  }]);\n  return Compare;\n}();\n\n//# sourceURL=webpack://lesta/./src/components/Compare.js?");
+
+/***/ }),
+
 /***/ "./src/pages/compare.js":
 /*!******************************!*\
   !*** ./src/pages/compare.js ***!
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/pages/index.css\");\n\n\n//# sourceURL=webpack://lesta/./src/pages/compare.js?");
-
-/***/ }),
-
-/***/ "./src/pages/index.css":
-/*!*****************************!*\
-  !*** ./src/pages/index.css ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://lesta/./src/pages/index.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/pages/index.css\");\n/* harmony import */ var _components_Section_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Section.js */ \"./src/components/Section.js\");\n/* harmony import */ var _components_Compare_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Compare.js */ \"./src/components/Compare.js\");\n/* harmony import */ var _components_data_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/data.js */ \"./src/components/data.js\");\n\n\n\n\nvar template = document.querySelector('.template').content;\nvar container = 'table';\nfunction createNew(item, template) {\n  var issue = new _components_Compare_js__WEBPACK_IMPORTED_MODULE_2__.Compare(item, template);\n  var issueElement = issue.render();\n  return issueElement;\n}\nvar issueElement = new _components_Section_js__WEBPACK_IMPORTED_MODULE_1__.Section({\n  renderer: function renderer(issueItem) {\n    issueElement.addItem(createNew(issueItem, template));\n  }\n}, container);\nissueElement.addItems(_components_data_js__WEBPACK_IMPORTED_MODULE_3__.compareIssues);\n\n//# sourceURL=webpack://lesta/./src/pages/compare.js?");
 
 /***/ })
 
@@ -92,6 +92,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -117,7 +129,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"compare": 0,
-/******/ 			"src_blocks_about-news___container_about-news__container_css-src_blocks_about-news___element-d-1a6543": 0
+/******/ 			"src_blocks_about-news___container_about-news__container_css-src_blocks_about-news___element-d-a296a4": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -167,7 +179,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["src_blocks_about-news___container_about-news__container_css-src_blocks_about-news___element-d-1a6543"], () => (__webpack_require__("./src/pages/compare.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["src_blocks_about-news___container_about-news__container_css-src_blocks_about-news___element-d-a296a4","src_components_Section_js-src_components_data_js-src_pages_index_css"], () => (__webpack_require__("./src/pages/compare.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

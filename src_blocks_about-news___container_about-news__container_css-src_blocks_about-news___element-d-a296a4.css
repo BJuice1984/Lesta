@@ -89,15 +89,31 @@
 /*!*************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__incoming-description/patch-notes__incoming-description.css ***!
   \*************************************************************************************************************************************************************************************************************/
-.patch-notes__incoming-description{color:#eee;cursor:default;font-size:20px;font-weight:400;line-height:1.1;margin:0 auto;padding-top:20px;text-align:center;text-shadow:0 0 .25em rgba(0,0,0,.7)}@media screen and (min-width:768px){.patch-notes__incoming-description{font-size:25px;line-height:1.5;padding-top:50px}}@media screen and (min-width:1024px){.patch-notes__incoming-description{font-size:30px}}
+.patch-notes__incoming-description{border-bottom:1px solid #545454;color:#eee;cursor:default;font-size:20px;font-weight:400;line-height:1.1;margin:0 auto;padding-bottom:30px;padding-top:20px;text-align:center;text-shadow:0 0 .25em rgba(0,0,0,.7)}@media screen and (min-width:768px){.patch-notes__incoming-description{font-size:25px;line-height:1.5;padding-top:50px}}@media screen and (min-width:1024px){.patch-notes__incoming-description{font-size:30px}}
 /*!***********************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__incoming-link/patch-notes__incoming-link.css ***!
   \***********************************************************************************************************************************************************************************************/
 .patch-notes__incoming-link{color:#fc611d;font-size:20px;font-weight:400;line-height:1.1;margin:0;padding:0 5px;text-decoration:none;text-shadow:0 0 .5em rgba(252,97,29,.7);transition:all .5s}.patch-notes__incoming-link:hover{opacity:.6;transition:.2s ease-in-out}@media screen and (min-width:768px){.patch-notes__incoming-link{font-size:25px}}@media screen and (min-width:1024px){.patch-notes__incoming-link{font-size:30px}}
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__incoming-image/patch-notes__incoming-image.css ***!
-  \*************************************************************************************************************************************************************************************************/
-.patch-notes__incoming-image{min-height:200px;min-width:320px;width:100%}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__table-image/patch-notes__table-image.css ***!
+  \*******************************************************************************************************************************************************************************************/
+.patch-notes__table-image{min-height:100px;min-width:120px;width:100%}
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__table/patch-notes__table.css ***!
+  \*******************************************************************************************************************************************************************************/
+.patch-notes__table{border-collapse:collapse;color:#eee;line-height:1.1;margin:20px 10px 0}
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__table-caption/patch-notes__table-caption.css ***!
+  \***********************************************************************************************************************************************************************************************/
+.patch-notes__table-caption{color:#fc611d;cursor:default;font-size:25px;font-weight:700;line-height:1.1;opacity:.9;padding:15px}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__table-head/patch-notes__table-head.css ***!
+  \*****************************************************************************************************************************************************************************************/
+.patch-notes__table-head{border:1px solid #a9e2cc;color:#eee;cursor:default;font-size:20px;font-weight:700;line-height:1.1;padding:10px;text-shadow:0 0 .25em rgba(0,0,0,.7)}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__table-body/patch-notes__table-body.css ***!
+  \*****************************************************************************************************************************************************************************************/
+.patch-notes__table-body{border:1px solid #a9e2cc;color:#eee;cursor:default;font-size:15px;font-weight:700;line-height:1.1;opacity:.9;padding:5px;text-align:left;text-shadow:0 0 .25em rgba(0,0,0,.7)}
 /*!********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/content/content.css ***!
   \********************************************************************************************************************************************************/
