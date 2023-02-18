@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"gameNews\": () => (/* binding */ gameNews),\n/* harmony export */   \"gamesSites\": () => (/* binding */ gamesSites)\n/* harmony export */ });\nvar gamesSites = [{\n  siteName: 'Destiny.Games - Разработка и локализация MMORPG (ddestiny.ru)',\n  siteLink: 'https://www.ddestiny.ru/?roistat_visit=8309392',\n  siteDescription: 'Отзывчивый интерфейс, стандартный дизайн. Мне нравится блок новостей в виде не напрягающего легкого списка'\n}, {\n  siteName: 'Game Garden (game-garden.com)',\n  siteLink: 'https://game-garden.com/ru/about/',\n  siteDescription: 'Отзывчивый интерфейс, стандартный дизайн. Мне нравится блок новостей в виде не напрягающего легкого списка'\n}, {\n  siteName: 'Apps Ministry. Разработка и издательство мобильных приложений',\n  siteLink: 'http://appsministry.com/?roistat_visit=8309392',\n  siteDescription: 'Приятный и комортный глазу дизайн. Всё просто и понятно. Вёрстка частично по BEM, но вложенность секций в дивы и секции зашкаливает )). Нет сертификата https'\n}, {\n  siteName: 'Новая игра про динозавров в мире будущего! (101xp.com)',\n  siteLink: 'https://corp.101xp.com/news/novaya-igra-pro-dinozavrov-v-mire-budushchego',\n  siteDescription: 'Современный сайт, довольно красивый. Верстка по BEM. Нравится, что есть классный интерактивный слайдер внизу'\n}, {\n  siteName: '01-SACRALITH — Odd Meter (odd-meter.com)',\n  siteLink: 'http://odd-meter.com/portfolio-item/scralith/',\n  siteDescription: 'Локаничный дизайн современного сайта, но вёрстка кажется мне сложной и симантически не верной. Нравится интерактивность и логотип. Нет сертификата https'\n}, {\n  siteName: 'MMORPG CARNAGE: бесплатная онлайн игра. Лучшая браузерная игра. Играть в многопользовательскую ролевую игру прямо сейчас!',\n  siteLink: 'http://www.carnage.ru/',\n  siteDescription: 'Сайт игры в которую я играл в свое время. Не адаптивный и устаревший дизайн, но классный логотип. Нет сертификата https'\n}];\nvar gameNews = [{\n  siteName: 'Techland выпустила хотфикс для обновления Dying Light 2 1.9.0 (playground.ru)',\n  siteLink: 'https://www.playground.ru/dying_light_2/news/techland_vypustila_hotfiks_dlya_obnovleniya_dying_light_2_1_9_0-1603904',\n  siteDescription: 'Новость отличная и решает задачу донесения информации о фиксах в игре. Это, скорее всего, привлечет новых пользователей или мотивирует, всё таки, попробовать в неё поиграть тех, кто знаком с игрой, но не скачал её',\n  siteOpinion: 'Кратко и по делу, локанично. Есть чёткий список фиксов. Возможно, стоило бы добавить источник, где можно подробнее почитать и скачть обновление'\n}, {\n  siteName: 'Ubisoft покидает творческий директор Assassins Creed 4: Black Flag и Origins — Игромания (igromania.ru)',\n  siteLink: 'https://www.igromania.ru/news/123262/Ubisoft_pokidaet_tvorcheskiy_direktor_Assassins_Creed_4_Black_Flag_i_Origins.html',\n  siteDescription: 'Новость нейтральная, но интересная. Решает задачу простого ознакомления юзера с судьбой игровой компании, но, дополнительно, намекает, что всё не так хорошо в компании, к тому же релиз опять перенесли',\n  siteOpinion: 'Опять таки, кратко - то, что нужно для таких новостей. Я бы добавил фотку Жана Гесдона'\n}, {\n  siteName: 'Геймплей Pacific Drive — автомобильного выживача в зоне отчуждения | StopGame',\n  siteLink: 'https://stopgame.ru/newsdata/56967/geympley_pacific_drive_avtomobilnogo_vyzhivacha_v_zone_otchuzhdeniya',\n  siteDescription: 'Новость интересная, решает задачу ознакомления юзера с геймплеем игры',\n  siteOpinion: 'Хорошо подана, т.к. есть описание, карусель картинок (это очень удобно) и frame с видео на ютуб. Ничего лишнего'\n}, {\n  siteName: 'Need For Speed Most Wanted 2012. Заложник названия — Игры на DTF',\n  siteLink: 'https://stopgame.ru/newsdata/56967/geympley_pacific_drive_avtomobilnogo_vyzhivacha_v_zone_otchuzhdeniya',\n  siteDescription: 'Ностальгическая новость (для олдов, таких как я)). Решает задачу ознакомления с историей игры.',\n  siteOpinion: 'Хорошо подана, т.к. есть описание, карусель картинок (это очень удобно) и frame с видео на ютуб. Ничего лишнего'\n}, {\n  siteName: 'Институт развития интернета выдаст авторам «Смуты» ещё четверть миллиарда рублей и уже думает, как поддерживать игру после успеха на релизе - (comnews24.ru)',\n  siteLink: 'https://comnews24.ru/igry/institut-razvitiya-interneta-vydast-avtoram-smuty-eshhjo-chetvert-milliarda-rublej-i-uzhe-dumaet-kak-podderzhivat-igru-posle-uspeha-na-relize/',\n  siteDescription: 'Нейтральная новость. Решает задачу привлечения внимания к игре за счёт раскрытия бюджета',\n  siteOpinion: 'Нравится, что раскрыта информация о деньгах и я могу примерно представить масштаб игры. Есть картинки и подробности о релизе'\n}];\n\n//# sourceURL=webpack://lesta/./src/components/data.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"compareIssues\": () => (/* binding */ compareIssues),\n/* harmony export */   \"gameNews\": () => (/* binding */ gameNews),\n/* harmony export */   \"gamesSites\": () => (/* binding */ gamesSites)\n/* harmony export */ });\nvar gamesSites = [{\n  siteName: 'Destiny.Games - Разработка и локализация MMORPG (ddestiny.ru)',\n  siteLink: 'https://www.ddestiny.ru/?roistat_visit=8309392',\n  siteDescription: 'Отзывчивый интерфейс, стандартный дизайн. Мне нравится блок новостей в виде не напрягающего легкого списка'\n}, {\n  siteName: 'Game Garden (game-garden.com)',\n  siteLink: 'https://game-garden.com/ru/about/',\n  siteDescription: 'Отзывчивый интерфейс, стандартный дизайн. Мне нравится блок новостей в виде не напрягающего легкого списка'\n}, {\n  siteName: 'Apps Ministry. Разработка и издательство мобильных приложений',\n  siteLink: 'http://appsministry.com/?roistat_visit=8309392',\n  siteDescription: 'Приятный и комортный глазу дизайн. Всё просто и понятно. Вёрстка частично по BEM, но вложенность секций в дивы и секции зашкаливает )). Нет сертификата https'\n}, {\n  siteName: 'Новая игра про динозавров в мире будущего! (101xp.com)',\n  siteLink: 'https://corp.101xp.com/news/novaya-igra-pro-dinozavrov-v-mire-budushchego',\n  siteDescription: 'Современный сайт, довольно красивый. Верстка по BEM. Нравится, что есть классный интерактивный слайдер внизу'\n}, {\n  siteName: '01-SACRALITH — Odd Meter (odd-meter.com)',\n  siteLink: 'http://odd-meter.com/portfolio-item/scralith/',\n  siteDescription: 'Локаничный дизайн современного сайта, но вёрстка кажется мне сложной и симантически не верной. Нравится интерактивность и логотип. Нет сертификата https'\n}, {\n  siteName: 'MMORPG CARNAGE: бесплатная онлайн игра. Лучшая браузерная игра. Играть в многопользовательскую ролевую игру прямо сейчас!',\n  siteLink: 'http://www.carnage.ru/',\n  siteDescription: 'Сайт игры в которую я играл в свое время. Не адаптивный и устаревший дизайн, но классный логотип. Нет сертификата https'\n}];\nvar gameNews = [{\n  siteName: 'Techland выпустила хотфикс для обновления Dying Light 2 1.9.0 (playground.ru)',\n  siteLink: 'https://www.playground.ru/dying_light_2/news/techland_vypustila_hotfiks_dlya_obnovleniya_dying_light_2_1_9_0-1603904',\n  siteDescription: 'Новость отличная и решает задачу донесения информации о фиксах в игре. Это, скорее всего, привлечет новых пользователей или мотивирует, всё таки, попробовать в неё поиграть тех, кто знаком с игрой, но не скачал её',\n  siteOpinion: 'Кратко и по делу, локанично. Есть чёткий список фиксов. Возможно, стоило бы добавить источник, где можно подробнее почитать и скачть обновление'\n}, {\n  siteName: 'Ubisoft покидает творческий директор Assassins Creed 4: Black Flag и Origins — Игромания (igromania.ru)',\n  siteLink: 'https://www.igromania.ru/news/123262/Ubisoft_pokidaet_tvorcheskiy_direktor_Assassins_Creed_4_Black_Flag_i_Origins.html',\n  siteDescription: 'Новость нейтральная, но интересная. Решает задачу простого ознакомления юзера с судьбой игровой компании, но, дополнительно, намекает, что всё не так хорошо в компании, к тому же релиз опять перенесли',\n  siteOpinion: 'Опять таки, кратко - то, что нужно для таких новостей. Я бы добавил фотку Жана Гесдона'\n}, {\n  siteName: 'Геймплей Pacific Drive — автомобильного выживача в зоне отчуждения | StopGame',\n  siteLink: 'https://stopgame.ru/newsdata/56967/geympley_pacific_drive_avtomobilnogo_vyzhivacha_v_zone_otchuzhdeniya',\n  siteDescription: 'Новость интересная, решает задачу ознакомления юзера с геймплеем игры',\n  siteOpinion: 'Хорошо подана, т.к. есть описание, карусель картинок (это очень удобно) и frame с видео на ютуб. Ничего лишнего'\n}, {\n  siteName: 'Need For Speed Most Wanted 2012. Заложник названия — Игры на DTF',\n  siteLink: 'https://stopgame.ru/newsdata/56967/geympley_pacific_drive_avtomobilnogo_vyzhivacha_v_zone_otchuzhdeniya',\n  siteDescription: 'Ностальгическая новость (для олдов, таких как я)). Решает задачу ознакомления с историей игры.',\n  siteOpinion: 'Хорошо подана, т.к. есть описание, карусель картинок (это очень удобно) и frame с видео на ютуб. Ничего лишнего'\n}, {\n  siteName: 'Институт развития интернета выдаст авторам «Смуты» ещё четверть миллиарда рублей и уже думает, как поддерживать игру после успеха на релизе - (comnews24.ru)',\n  siteLink: 'https://comnews24.ru/igry/institut-razvitiya-interneta-vydast-avtoram-smuty-eshhjo-chetvert-milliarda-rublej-i-uzhe-dumaet-kak-podderzhivat-igru-posle-uspeha-na-relize/',\n  siteDescription: 'Нейтральная новость. Решает задачу привлечения внимания к игре за счёт раскрытия бюджета',\n  siteOpinion: 'Нравится, что раскрыта информация о деньгах и я могу примерно представить масштаб игры. Есть картинки и подробности о релизе'\n}];\nvar compareIssues = [{\n  issueDescription: 'главное отличие - раскрывающийся контент у блоков обновлений. Это удобнее, на мой взгляд, т.к. проще ориентироваться по загаловкам. Считаю это улучшением юзабилити'\n}, {\n  issueDescription: 'добавлен блок с рекомендациями к прочтению - улучшение, т.к. пользователь может увидеть что-то интересное и прочитать сразу.'\n}, {\n  issueDescription: 'добавлена ссылка на форум - улучшение, т.к. по одному щелчку пользователь пошёл общаться и, тем самым, поддерживать комьюнити.'\n}, {\n  issueDescription: 'слайдер, на мой взгляд, можно сделать более интерактивным - добавить возможность прокрутки захватив картинку.'\n}, {\n  issueDescription: 'кнопку \"свернуть\" должна быть внизу блока. После \"разворачивания\" контента кнопка могла бы перемещаться вниз. Добавить сворачивание по Esc.'\n}, {\n  issueDescription: 'удачно сделаны вставки о будущих обновлениях в конкертных темах. Возможно, было бы удачно добавить блок с планируемыми обновлениями в будущих версиях.'\n}, {\n  issueDescription: 'подавл сайта слишком массивный и перегружен текстом.'\n}, {\n  issueDescription: 'баг - боковые кнопки появляются в самом низу после того, как пропадают.',\n  issueImage: ''\n}, {\n  issueDescription: 'для \"рекомендумое к прочтению\" на разрешении Tablet должно быть 4 блока, а не 3.'\n}];\n\n//# sourceURL=webpack://lesta/./src/components/data.js?");
 
 /***/ }),
 
@@ -86,7 +86,42 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/chunk loaded */
+/******/ 	(() => {
+/******/ 		var deferred = [];
+/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
+/******/ 			if(chunkIds) {
+/******/ 				priority = priority || 0;
+/******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
+/******/ 				deferred[i] = [chunkIds, fn, priority];
+/******/ 				return;
+/******/ 			}
+/******/ 			var notFulfilled = Infinity;
+/******/ 			for (var i = 0; i < deferred.length; i++) {
+/******/ 				var [chunkIds, fn, priority] = deferred[i];
+/******/ 				var fulfilled = true;
+/******/ 				for (var j = 0; j < chunkIds.length; j++) {
+/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
+/******/ 						chunkIds.splice(j--, 1);
+/******/ 					} else {
+/******/ 						fulfilled = false;
+/******/ 						if(priority < notFulfilled) notFulfilled = priority;
+/******/ 					}
+/******/ 				}
+/******/ 				if(fulfilled) {
+/******/ 					deferred.splice(i--, 1)
+/******/ 					var r = fn();
+/******/ 					if (r !== undefined) result = r;
+/******/ 				}
+/******/ 			}
+/******/ 			return result;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -115,12 +150,67 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		// no baseURI
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"aboutNews": 0,
+/******/ 			"src_blocks_about-news___container_about-news__container_css-src_blocks_about-news___element-d-1a6543": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
+/******/ 		
+/******/ 		// install a JSONP callback for chunk loading
+/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
+/******/ 			var [chunkIds, moreModules, runtime] = data;
+/******/ 			// add "moreModules" to the modules object,
+/******/ 			// then flag all "chunkIds" as loaded and fire callback
+/******/ 			var moduleId, chunkId, i = 0;
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
+/******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
+/******/ 			}
+/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
+/******/ 			for(;i < chunkIds.length; i++) {
+/******/ 				chunkId = chunkIds[i];
+/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 					installedChunks[chunkId][0]();
+/******/ 				}
+/******/ 				installedChunks[chunkId] = 0;
+/******/ 			}
+/******/ 			return __webpack_require__.O(result);
+/******/ 		}
+/******/ 		
+/******/ 		var chunkLoadingGlobal = self["webpackChunklesta"] = self["webpackChunklesta"] || [];
+/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
+/******/ 	})();
+/******/ 	
 /************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/pages/aboutNews.js");
+/******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["src_blocks_about-news___container_about-news__container_css-src_blocks_about-news___element-d-1a6543"], () => (__webpack_require__("./src/pages/aboutNews.js")))
+/******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;

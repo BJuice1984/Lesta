@@ -13,19 +13,19 @@
 /*!*************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/page/__container/page__container.css ***!
   \*************************************************************************************************************************************************************************/
-.page__container{display:grid;grid-template-rows:auto 1fr auto;margin:0 auto;max-width:1280px;min-height:100vh;min-width:320px}@media screen and (min-width:1280px){.page__container{margin:0 auto}}
+.page__container{display:grid;grid-template-rows:auto 1fr auto;margin:0 auto;max-width:100vw;min-height:100vh;min-width:320px}
 /*!******************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/header.css ***!
   \******************************************************************************************************************************************************/
-.header{background-color:#333;padding:28px 0 10px 27px}@media screen and (min-width:768px){.header{padding:45px 0 15px}}
+.header{background-color:#333;padding:28px 27px 10px}@media screen and (min-width:768px){.header{padding:45px 10 15px 10px}}
 /*!*******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__name/header__name.css ***!
   \*******************************************************************************************************************************************************************/
-.header__name{color:#545454;cursor:default;font-size:30px;font-weight:700;line-height:30px;margin:0 auto;text-align:center}@media screen and (min-width:768px){.header__name{font-size:40px}}
+.header__name{color:#545454;cursor:default;font-size:28px;font-weight:700;line-height:1.1;margin:0 auto;text-align:center}@media screen and (min-width:768px){.header__name{font-size:36px}}
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__navigation/header__navigation.css ***!
   \*******************************************************************************************************************************************************************************/
-.header__navigation{display:flex;flex-direction:column;padding-top:10px}@media screen and (min-width:768px){.header__navigation{display:flex;flex-direction:row;padding-top:10px}}
+.header__navigation{display:flex;flex-direction:column;padding-top:20px}@media screen and (min-width:768px){.header__navigation{flex-direction:row;padding-top:30px}}
 /*!*******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__link/header__link.css ***!
   \*******************************************************************************************************************************************************************/
@@ -73,7 +73,7 @@
 /*!*************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-news/__container/about-news__container.css ***!
   \*************************************************************************************************************************************************************************************/
-.about-news__container{display:flex;flex-direction:column;margin:0 10px;padding-bottom:30px}
+.about-news__container{display:flex;flex-direction:column;margin:0 10px;padding-bottom:30px}@media screen and (min-width:768px){.about-news__container{margin:0 30px}}@media screen and (min-width:1280px){.about-news__container{margin:0 80px}}
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-news/__element-name/about-news__element-name.css ***!
   \*******************************************************************************************************************************************************************************************/
@@ -82,6 +82,22 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-news/__element-description/about-news__element-description.css ***!
   \*********************************************************************************************************************************************************************************************************/
 .about-news__element-description{color:#eee;cursor:default;font-size:15px;font-weight:400;line-height:1.5;margin:0;opacity:.7;padding-bottom:5px;text-align:left;text-shadow:0 0 .5em rgba(84,84,84,.7)}@media screen and (min-width:768px){.about-news__element-description{font-size:18px;line-height:1.2;padding-bottom:10px}}
+/*!****************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/patch-notes.css ***!
+  \****************************************************************************************************************************************************************/
+.patch-notes{display:flex;flex-direction:column;margin:0 10px}
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__incoming-description/patch-notes__incoming-description.css ***!
+  \*************************************************************************************************************************************************************************************************************/
+.patch-notes__incoming-description{color:#eee;cursor:default;font-size:20px;font-weight:400;line-height:1.1;margin:0 auto;padding-top:20px;text-align:center;text-shadow:0 0 .25em rgba(0,0,0,.7)}@media screen and (min-width:768px){.patch-notes__incoming-description{font-size:25px;line-height:1.5;padding-top:50px}}@media screen and (min-width:1024px){.patch-notes__incoming-description{font-size:30px}}
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__incoming-link/patch-notes__incoming-link.css ***!
+  \***********************************************************************************************************************************************************************************************/
+.patch-notes__incoming-link{color:#fc611d;font-size:20px;font-weight:400;line-height:1.1;margin:0;padding:0 5px;text-decoration:none;text-shadow:0 0 .5em rgba(252,97,29,.7);transition:all .5s}.patch-notes__incoming-link:hover{opacity:.6;transition:.2s ease-in-out}@media screen and (min-width:768px){.patch-notes__incoming-link{font-size:25px}}@media screen and (min-width:1024px){.patch-notes__incoming-link{font-size:30px}}
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/patch-notes/__incoming-image/patch-notes__incoming-image.css ***!
+  \*************************************************************************************************************************************************************************************************/
+.patch-notes__incoming-image{min-height:200px;min-width:320px;width:100%}
 /*!********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/content/content.css ***!
   \********************************************************************************************************************************************************/
