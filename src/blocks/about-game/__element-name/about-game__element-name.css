@@ -1,0 +1,21 @@
+.about-game__element-name {
+  margin: 0;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: bold;
+  color: #eee;
+  text-shadow: 0 0 0.25em rgb(0 0 0 / 70%);
+  padding-bottom: 10px;
+  transition: all 0.5s;
+  cursor: default;
+}
+
+@media screen and (min-width: 768px) {
+  .about-game__element-name {
+    font-size: 25px;
+    line-height: 1.5;
+    text-shadow: 0 0 0.25em rgb(0 0 0 / 70%);
+    padding-bottom: 12px;
+  }
+}

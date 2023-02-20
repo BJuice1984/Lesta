@@ -1,0 +1,29 @@
+.about-game__incoming-link {
+  margin: 0;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: normal;
+  padding: 0 5px;
+  color: #fc611d;
+  text-shadow: 0 0 0.5em rgb(252 97 29 / 70%);
+  transition: all 0.5s;
+}
+
+.about-game__incoming-link:hover {
+  opacity: 0.6;
+  transition: 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .about-game__incoming-link {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-game__incoming-link {
+    font-size: 30px;
+  }
+}
+
