@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Тестовое задание на вакансию Frontend Developer"/>
+  <meta name="keywords" content="HTML5, CSS" />
+  <meta name="author" content="Ильяс" />
+  <link rel="icon" href="<%=require('../../images/favicon.ico')%>" type="image/x-icon">
+  <title>Lesta. Тестовое задание</title>
+</head>
+<body class="page">
+  <div class="page__container">
+    <header class="header">
+      <h1 class="header__name">Lesta Games. Пример статей и сайтов об играх</h1>
+      <nav class="header__navigation">
+        <a class="header__link" href="./index.html">Главная</a>
+        <a class="header__link" href="./compare.html">Сравнить статьи</a>
+        <a class="header__link" href="./aboutGame.html">Анализ "Об игре"</a>
+      </nav>
+    </header>
+    <main class="content content_type_no-background">
+      <section class="about-news">
+        <h2 class="about-news__header">Сайты игровых компаний</h2>
+        <div id="game" class="about-news__container">
+
+        </div>
+        <h2 class="about-news__header">Новости</h2>
+        <div id="news" class="about-news__container">
+
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__author">&copy; 2023. Ильяс Сибгатуллин</p>
+    </footer>
+  </div>
+  <template id="template-game" class="template">
+    <article class="about-news__element">
+      <a class="about-news__element-name" href="#"></a>
+      <p class="about-news__element-description"></p>
+    </article>
+  </template>
+  <template id="template-news" class="template">
+    <article class="about-news__element">
+      <a class="about-news__element-name"></a>
+      <p class="about-news__element-description"></p>
+      <p class="about-news__element-description about-news__element-description_type_opinion"></p>
+    </article>
+  </template>
+
+
+</body>
+</html>

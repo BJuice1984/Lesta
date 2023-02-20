@@ -1,0 +1,75 @@
+.game__cell {
+  width: 75px;
+  height: 75px;
+  border: 1px solid #fc611d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;;
+  text-shadow: 0 0 0.25em rgb(0 0 0 / 100%);
+  font-size: 70px;
+  box-sizing: border-box;
+  font-family: 'TTT';
+}
+
+.game__cell:first-child {
+  border: none;
+  box-shadow: none
+}
+
+.game__cell:last-child {
+  border: none;
+  box-shadow: none
+}
+
+.game__cell:nth-child(3) {
+  border: none;
+  box-shadow: none
+}
+
+.game__cell:nth-child(7) {
+  border: none;
+  box-shadow: none
+}
+
+.game__cell:nth-child(2) {
+  border-top: none;
+  border-bottom: none;
+}
+
+.game__cell:nth-child(8) {
+  border-top: none;
+  border-bottom: none;
+}
+
+.game__cell:nth-child(4) {
+  border-left: none;
+  border-right: none;
+}
+
+.game__cell:nth-child(6) {
+  border-left: none;
+  border-right: none;
+}
+
+.game__cell:hover {
+  border: 1px solid #fc611d;
+  box-shadow: 0 0 0 1px #fc611d, 0 0 8px #fc611d;
+}
+
+@media screen and (min-width: 768px) {
+  .game__cell {
+    width: 150px;
+    height: 150px;
+    font-size: 130px;
+    border: 3px solid #fc611d;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .game__cell {
+    width: 170px;
+    height: 170px;
+    font-size: 130px;
+  }
+}

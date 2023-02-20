@@ -1,0 +1,25 @@
+.about-news__element-name {
+  margin: 0;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: bold;
+  color: #eee;
+  text-shadow: 0 0 0.25em rgb(0 0 0 / 70%);
+  padding-bottom: 10px;
+  transition: all 0.5s;
+}
+
+.about-news__element-name:hover {
+  opacity: 0.6;
+  transition: 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .about-news__element-name {
+    font-size: 25px;
+    line-height: 1.5;
+    text-shadow: 0 0 0.25em rgb(0 0 0 / 70%);
+    padding-bottom: 12px;
+  }
+}

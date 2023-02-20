@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Тестовое задание на вакансию Frontend Developer"/>
+  <meta name="keywords" content="HTML5, CSS" />
+  <meta name="author" content="Ильяс" />
+  <link rel="icon" href="<%=require('../../images/favicon.ico')%>" type="image/x-icon">
+  <title>Lesta. Тестовое задание</title>
+</head>
+<body class="page">
+  <div class="page__container">
+    <header class="header">
+      <h1 class="header__name">Lesta Games. Анализ старницы "Об игре"</h1>
+      <nav class="header__navigation">
+        <a class="header__link" href="./index.html">Главная</a>
+        <a class="header__link" href="./aboutNews.html">О новостях</a>
+        <a class="header__link" href="./compare.html">Сравнить статьи</a>
+      </nav>
+    </header>
+    <main class="content content_type_no-background">
+      <section class="about-game">
+        <p class="about-game__incoming-description">
+          В этом разделе сайта я&nbsp;анализирую страницу
+          <a class="about-game__incoming-link" href="https://korabli.su/ru/content/game/">"Об&nbsp;игре"</a>
+          сайта "Мир&nbsp;кораблей". ИМХО
+        </p>
+        <div id="about-game" class="about-game__cards-container">
+
+          <div class="about-game__card-container">
+            <h2 class="about-game__header">Бургер-меню</h2>
+            <div id="burgerMenu" class="about-game__container">
+            </div>
+          </div>
+
+          <div class="about-game__card-container">
+            <h2 class="about-game__header">Бургер-меню в аккаунте</h2>
+            <div id="burgerMenuAccount" class="about-game__container">
+            </div>
+          </div>
+
+          <div class="about-game__card-container">
+            <h2 class="about-game__header">Основная страница</h2>
+            <div id="main" class="about-game__container">
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__author">&copy; 2023. Ильяс Сибгатуллин</p>
+    </footer>
+  </div>
+  <template class="template">
+    <article class="about-game__element">
+      <p class="about-game__element-name"></p>
+      <span class="about-game__element-description"></span>
+    </article>
+  </template>
+</body>
+</html>

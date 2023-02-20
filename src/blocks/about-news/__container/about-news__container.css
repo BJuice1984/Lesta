@@ -1,0 +1,18 @@
+.about-news__container {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-news__container {
+    margin: 0 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-news__container {
+    margin: 0 80px;
+  }
+}

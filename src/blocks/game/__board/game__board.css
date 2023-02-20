@@ -1,0 +1,7 @@
+.game__board {
+  grid-area: game__board;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: fit-content;
+  height: fit-content;
+}
