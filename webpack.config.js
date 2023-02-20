@@ -34,7 +34,7 @@ module.exports = {
         exclude: '/node_modules/'
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/,
+        test: /\.(png|svg|jpg|jpeg|gif|ico)$/,
         type: 'asset/resource',
         generator: {
           filename: 'images/[name].[hash][ext]',
@@ -72,7 +72,7 @@ module.exports = {
     ),
     [
       new CleanWebpackPlugin(),
-      new MiniCssExtractPlugin()
+      new MiniCssExtractPlugin(),
     ]
   ),
  }
