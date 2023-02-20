@@ -146,14 +146,54 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/__content/_type/popup__content_type_image.css ***!
   \****************************************************************************************************************************************************************************************/
 .popup__content_type_image{max-height:75vh;max-width:100%}@media screen and (min-width:380px){.popup__content_type_image{max-height:75vh;max-width:75vw}}
+/*!**************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/about-game.css ***!
+  \**************************************************************************************************************************************************************/
+.about-game{display:flex;flex-direction:column;padding-bottom:50px;padding-top:30px}
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__header/about-game__header.css ***!
+  \*******************************************************************************************************************************************************************************/
+.about-game__header{color:#fc611d;cursor:default;font-size:25px;font-weight:700;line-height:1.1;margin:0 auto;min-width:300px;opacity:.9;padding-bottom:30px;padding-left:10px;text-align:center}@media screen and (min-width:768px){.about-game__header{font-size:30px}}
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__container/about-game__container.css ***!
+  \*************************************************************************************************************************************************************************************/
+.about-game__container{display:flex;flex-direction:column;margin:0 20px;padding-bottom:30px}@media screen and (min-width:768px){.about-game__container{margin-left:30px}}@media screen and (min-width:1280px){.about-game__container{margin-left:35px}}
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__incoming-description/about-game__incoming-description.css ***!
+  \***********************************************************************************************************************************************************************************************************/
+.about-game__incoming-description{border-bottom:1px solid #545454;color:#eee;cursor:default;font-size:20px;font-weight:400;line-height:1.1;margin:0 auto;padding-bottom:30px;padding-top:20px;text-align:center;text-shadow:0 0 .25em rgba(0,0,0,.7)}@media screen and (min-width:768px){.about-game__incoming-description{font-size:25px;line-height:1.5;padding-top:50px}}@media screen and (min-width:1024px){.about-game__incoming-description{font-size:30px}}
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__incoming-link/about-game__incoming-link.css ***!
+  \*********************************************************************************************************************************************************************************************/
+.about-game__incoming-link{color:#fc611d;font-size:20px;font-weight:400;line-height:1.1;margin:0;padding:0 5px;text-decoration:none;text-shadow:0 0 .5em rgba(252,97,29,.7);transition:all .5s}.about-game__incoming-link:hover{opacity:.6;transition:.2s ease-in-out}@media screen and (min-width:768px){.about-game__incoming-link{font-size:25px}}@media screen and (min-width:1024px){.about-game__incoming-link{font-size:30px}}
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__cards-container/about-game__cards-container.css ***!
+  \*************************************************************************************************************************************************************************************************/
+.about-game__cards-container{display:flex;flex-direction:column;padding-top:20px}
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__card-container/about-game__card-container.css ***!
+  \***********************************************************************************************************************************************************************************************/
+.about-game__card-container{box-shadow:0 6px 10px -2px rgba(252,97,29,.7);display:flex;flex-direction:column;margin:0 20px}.about-game__card-container:not(:first-child){margin-top:30px}@media screen and (min-width:768px){.about-game__card-container{flex-direction:row}}
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__element/about-game__element.css ***!
+  \*********************************************************************************************************************************************************************************/
+.about-game__element{border-bottom:1px solid #545454;display:flex;flex-direction:column;margin:0;padding-bottom:5px}.about-game__element:not(:first-child){padding-top:30px}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__element-name/about-game__element-name.css ***!
+  \*******************************************************************************************************************************************************************************************/
+.about-game__element-name{color:#eee;cursor:default;font-size:20px;font-weight:700;line-height:1.1;margin:0;padding-bottom:10px;text-align:left;text-shadow:0 0 .25em rgba(0,0,0,.7);transition:all .5s}@media screen and (min-width:768px){.about-game__element-name{font-size:25px;line-height:1.5;padding-bottom:12px;text-shadow:0 0 .25em rgba(0,0,0,.7)}}
 /*!********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/content/content.css ***!
   \********************************************************************************************************************************************************/
 .content{background-image:url(https://wowsp-wows-ru.wgcdn.co/dcont/fb/image/bdcfc100-e172-11e7-a044-8cdcd4b149ac.jpg);background-position:50%;background-repeat:no-repeat;background-size:cover;position:relative;z-index:1}.content:after{background:#2a2c2f;content:"";display:block;height:100%;left:0;opacity:.6;position:absolute;top:0;width:100%;z-index:-1}
-/*!************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/content/_type/content_type_news.css ***!
-  \************************************************************************************************************************************************************************/
-.content_type_news{background-image:none}
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__element-description/about-game__element-description.css ***!
+  \*********************************************************************************************************************************************************************************************************/
+.about-game__element-description{color:#eee;cursor:default;font-size:15px;font-weight:400;line-height:1.5;margin:0;opacity:.7;padding-bottom:5px;text-align:left;text-shadow:0 0 .5em rgba(84,84,84,.7)}@media screen and (min-width:768px){.about-game__element-description{font-size:18px;line-height:1.2;padding-bottom:10px}}
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/content/_type/content_type_no-background.css ***!
+  \*********************************************************************************************************************************************************************************/
+.content_type_no-background{background-image:none}
 /*!******************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/footer.css ***!
   \******************************************************************************************************************************************************/

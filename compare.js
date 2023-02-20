@@ -139,7 +139,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"compare": 0,
-/******/ 			"src_blocks_about-news___container_about-news__container_css-src_blocks_about-news___element-d-e60186": 0
+/******/ 			"src_blocks_about-game___card-container_about-game__card-container_css-src_blocks_about-game__-15185d": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -189,7 +189,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["src_blocks_about-news___container_about-news__container_css-src_blocks_about-news___element-d-e60186","src_components_Section_js-src_components_data_js-src_pages_index_css"], () => (__webpack_require__("./src/pages/compare.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["src_blocks_about-game___card-container_about-game__card-container_css-src_blocks_about-game__-15185d","src_components_Section_js-src_components_data_js-src_pages_index_css"], () => (__webpack_require__("./src/pages/compare.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
