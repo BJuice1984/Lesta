@@ -153,7 +153,7 @@
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__header/about-game__header.css ***!
   \*******************************************************************************************************************************************************************************/
-.about-game__header{color:#fc611d;cursor:default;font-size:25px;font-weight:700;line-height:1.1;margin:0 auto;min-width:300px;opacity:.9;padding-bottom:30px;padding-left:10px;text-align:center}@media screen and (min-width:768px){.about-game__header{font-size:30px}}
+.about-game__header{color:#fc611d;cursor:default;font-size:25px;font-weight:700;line-height:1.1;margin:0;opacity:.9;padding-bottom:30px;padding-left:10px;text-align:center}@media screen and (min-width:768px){.about-game__header{font-size:30px}}
 /*!*************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__container/about-game__container.css ***!
   \*************************************************************************************************************************************************************************************/
@@ -169,11 +169,11 @@
 /*!*************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__cards-container/about-game__cards-container.css ***!
   \*************************************************************************************************************************************************************************************************/
-.about-game__cards-container{display:flex;flex-direction:column;padding-top:20px}
+.about-game__cards-container{display:flex;flex-direction:column;margin:0 auto;padding-top:20px}
 /*!***********************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__card-container/about-game__card-container.css ***!
   \***********************************************************************************************************************************************************************************************/
-.about-game__card-container{box-shadow:0 6px 10px -2px rgba(252,97,29,.7);display:flex;flex-direction:column;margin:0 20px}.about-game__card-container:not(:first-child){margin-top:30px}@media screen and (min-width:768px){.about-game__card-container{flex-direction:row}}
+.about-game__card-container{box-shadow:0 6px 10px -2px rgba(252,97,29,.7);display:flex;flex-direction:column;margin:0 20px}.about-game__card-container:not(:first-child){margin-top:30px}@media screen and (min-width:768px){.about-game__card-container{display:grid;grid-template-columns:300px 1fr}}
 /*!*********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about-game/__element/about-game__element.css ***!
   \*********************************************************************************************************************************************************************************/
