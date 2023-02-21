@@ -9,6 +9,8 @@
 @import url("../blocks/game/game.css");
 @import url("../blocks/game/__board/game__board.css");
 @import url("../blocks/game/__cell/game__cell.css");
+@import url("../blocks/game/__cell/_type/game__cell_type_human-win.css");
+@import url("../blocks/game/__cell/_type/game__cell_type_bot-win.css");
 @import url("../blocks/game/__result/game__result.css");
 @import url("../blocks/game/__result/_type/game__result_type_active.css");
 @import url("../blocks/game/__header/game__header.css");

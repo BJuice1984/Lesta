@@ -1,0 +1,5 @@
+.game__cell_type_bot-win {
+  color: #FF4500;
+  text-shadow: 0 0 0.25em rgb(255 69 0 / 100%);
+  font-weight: bold;
+}

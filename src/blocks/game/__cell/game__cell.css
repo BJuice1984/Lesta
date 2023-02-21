@@ -10,6 +10,7 @@
   font-size: 70px;
   box-sizing: border-box;
   font-family: 'TTT';
+  cursor: default;
 }
 
 .game__cell:first-child {
